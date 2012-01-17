@@ -1,0 +1,40 @@
+.DS_Store
+.bundle
+*.swp
+db/*.sqlite3
+log/
+solr/data
+tmp/
+vendor/ruby
+bin/*
+config/mail.yml
+config/shortswitch.yml
+config/s3.yml
+config/app_config.yml
+config/facebook.yml
+coverage/
+
+# Flex Builder
+html-template/
+
+public/stylesheets
+public/system
+
+# Emacs
+*#
+.#*
+
+startupEC2/*.zip
+startupEC2/*/init.bash
+
+/TAGS
+tmtags
+/.powenv
+
+.sass-cache/
+public/assets/
+
+# A fix for Paperclip installed by macports in /opt/local vs /usr/local with other methods.
+# Could use `which identify` to discover the path universally in development and production
+config/initializers/paperclip.rb
+
